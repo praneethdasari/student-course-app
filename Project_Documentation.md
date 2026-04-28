@@ -22,14 +22,17 @@ We use an H2 in-memory database, which starts up instantly and retains data temp
 - **Styling**: We created an elegant vanilla CSS theme with variables (`--primary-color`, etc.), soft box-shadows, and a clean structured layout.
 - Forms leverage Spring's `<form:form>` tags with binding for validation errors.
 
-#### Read (List Students)
-![Student List Screenshot](list.png)
+#### 1. Initial Student List
+![Initial Student List Screenshot](initial_list.png)
 
-#### Create (Add Student)
-![Add Student Form Screenshot](add.png)
+#### 2. The Form (Empty)
+![Empty Form Screenshot](add.png)
 
-#### Update (Edit Student)
-![Edit Student Form Screenshot](edit.png)
+#### 3. Form With Data
+![Form With Data Screenshot](edit.png)
+
+#### 4. Final Updated List
+![Final Updated List Screenshot](list.png)
 
 ## 3. Challenges Faced & Solutions
 1. **Handling Foreign Keys in Views**: Passing course data accurately when creating/editing a student.
