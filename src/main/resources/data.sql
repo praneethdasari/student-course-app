@@ -21,3 +21,6 @@ INSERT INTO student (id, name, email, course_id) VALUES (7, 'George Harris', 'ge
 INSERT INTO student (id, name, email, course_id) VALUES (8, 'Hannah Abbott', 'hannah.abbott@gmail.com', 8);
 INSERT INTO student (id, name, email, course_id) VALUES (9, 'Ian Somerhalder', 'ian.somerhalder@gmail.com', 9);
 INSERT INTO student (id, name, email, course_id) VALUES (10, 'Jane Doe', 'jane.doe@gmail.com', 10);
+
+ALTER TABLE course ALTER COLUMN id RESTART WITH 11;
+ALTER TABLE student ALTER COLUMN id RESTART WITH 11;
