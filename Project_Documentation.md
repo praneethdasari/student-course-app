@@ -31,4 +31,4 @@ We use an H2 in-memory database, which starts up instantly and retains data temp
    - *Solution*: Caught `DataIntegrityViolationException` in `StudentService` and mapped it to a friendly error message shown in the view layer via Redirect Attributes.
 
 ## 4. GitHub URL
-Project Source Code: [https://github.com/example/student-course-app](https://github.com/example/student-course-app)
+Project Source Code: [https://github.com/praneethdasari/student-course-app](https://github.com/praneethdasari/student-course-app)
